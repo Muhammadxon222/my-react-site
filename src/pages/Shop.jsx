@@ -187,8 +187,119 @@ const PRODUCTS = [
   { id: 50, name: "JPG - Le Beau Le Parfum", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/jpg-le-beau-lp.jpg" },
   { id: 51, name: "Dior - Homme Intense", category: "Парфюмерия", price: "359 000 сум", isSale: false, img: "/products/dior-homme-intense.jpg" },
   { id: 52, name: "Creed - Aventus", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/creed-aventus.jpg" },
-  { id: 53, name: "Dior - Sauvage Elixir", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/sauvage-elixir.jpg" }
-
+  { id: 53, name: "Dior - Sauvage Elixir", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/sauvage-elixir.jpg" },
+  {
+    id: 54,
+    name: "Nike - Classic Grey",
+    category: "Обувь",
+    price: "400 000 сум", 
+    isSale: false, 
+    img: "/products/nike-classic-grey.jpg" 
+  },
+  {
+    id: 55,
+    name: "Nike - Grey Sky",
+    category: "Обувь",
+    price:" 400 000 сум", 
+    isSale: false, 
+    img: "/products/nike-grey-sky.jpg" 
+  },
+  {
+    id: 56,
+    name: "Saint Laurent - Classic White",
+    category: "Обувь",
+    price: " 400 000 сум", 
+    isSale: false, 
+    img: "/products/ysl-classic-white.jpg" 
+  },
+  {
+    id: 57,
+    name: "Nike - Rose Red",
+    category: "Обувь",
+    price: " 400 000 сум", 
+    isSale: false, 
+    img: "/products/nike-rose-red.jpg" 
+  },
+  {
+    id: 58,
+    name: "Hoodie - Bloody Stat",
+    category: "Одежда",
+    price: " 399 000 сум", 
+    isSale: false, 
+    img: "/products/hoodie-bloody-stat.jpg" 
+  },
+  {
+    id: 59,
+    name: "Jeans - Half Classic",
+    category: "Одежда",
+    price: " 299 000 сум", 
+    isSale: false, 
+    img: "/products/jeans-half-classic.jpg" 
+  },
+  {
+    id: 60, // ЮБИЛЕЙНЫЙ НОМЕР!
+    name: "Jeans - Aquatic",
+    category: "Одежда",
+    price: " 259 000 сум", 
+    isSale: false, 
+    img: "/products/jeans-aquatic.jpg" 
+  },
+  {
+    id: 61,
+    name: "Jeans - Boyfriend",
+    category: "Одежда",
+    price: " 289 000 сум", 
+    isSale: false, 
+    img: "/products/jeans-boyfriend.jpg" 
+  },
+  {
+    id: 62,
+    name: "Jeans x Pants",
+    category: "Одежда",
+    price: " 299 000 сум", 
+    isSale: false, 
+    img: "/products/jeans-x-pants.jpg" 
+  },
+  {
+    id: 63,
+    name: "T-shirt - Cherry Blossom",
+    category: "Одежда",
+    price: " 199 000 сум", 
+    isSale: false, 
+    img: "/products/t-shirt-cherry-blossom.jpg" 
+  },
+  {
+    id: 64,
+    name: "T-shirt - Music Heals",
+    category: "Одежда",
+    price: " 199 000 сум", 
+    isSale: false, 
+    img: "/products/t-shirt-music-heals.jpg" 
+  },
+  {
+    id: 65,
+    name: "T-shirt - Paradis",
+    category: "Одежда",
+    price: " 159 000 сум", 
+    isSale: false, 
+    img: "/products/t-shirt-paradis.jpg" 
+  },
+  {
+    id: 66,
+    name: "T-shirt - AK47",
+    category: "Одежда",
+    price: " 149 000 сум", 
+    isSale: true, // Поставил true, так как цена очень горячая
+    img: "/products/t-shirt-ak47.jpg" 
+  },
+  {
+    id: 67,
+    name: "T-shirt - Old Money",
+    category: "Одежда",
+    price: " 219 000 сум", 
+    isSale: false, 
+    img: "/products/t-shirt-old-money.jpg" 
+  }
 
   
 ];
