@@ -49,7 +49,7 @@ const PRODUCTS = [
   {
     id: 6,
     name: "Sk8 Style",
-    category: "Обувь",
+    category: "Одежда",
     price: "250 000 сум",
     isSale: false,
     img: "/products/photo_5_2026-02-03_22-41-12.jpg",
@@ -62,6 +62,94 @@ const PRODUCTS = [
     isSale: false,
     img: "/products/photo_6_2026-02-03_22-41-12.jpg",
   },
+  {
+    id: 9,
+    name: "Pants-Red Flame",
+    category: "Одежда",
+    price: "289 000 сум",
+    isSale: false,
+    img: "/products/photo_8_2026-02-03_22-41-03.jpg"
+  },
+  {
+    id: 10,
+    name: "Classic grey",
+    category: "Одежда",
+    price: "255 000 сум",
+    isSale: false,
+    img: "/products/photo_9_2026-02-03_22-41-03.jpg"
+},
+{
+  id: 11,
+  name: "Baggy jeans sakura",
+  category: "Одежда",
+  price: "399 000 сум",
+  isSale: false,
+  img: "/products/photo_2026-02-03_22-39-14.jpg"
+},
+{
+  id: 12,
+  name: "Jeans Knight Sakura",
+  category: "Одежда",
+  price: "399 000 сум",
+  isSale: false,
+  img: "/products/photo_2026-02-03_22-39-32.jpg"
+},
+{
+  id: 13,
+  name: "Zip hoodie (gothic grey)",
+  category: "Одежда",
+  price: "319 000 сум",
+  isSale: false,
+  img: "/products/photo_2026-02-03_22-39-40.jpg"
+},
+{
+  id: 14,
+  name: "Nike meteor",
+  category: "Обувь",
+  price: "400 000 сум",
+  isSale: true,
+  img: "/products/photo_2026-02-03_22-39-56.jpg"
+},
+{
+  id: 15,
+  name: "Nike red lobster",
+  category: "Обувь",
+  price: "400 000 сум",
+  isSale: true,
+  img: "/products/photo_2026-02-03_22-39-59.jpg"
+},
+{
+  id: 16,
+  name: "Nike pink pie",
+  category: "Обувь",
+  price: "400 000 сум",
+  isSale: true,
+  img: "/products/photo_2026-02-03_22-40-03.jpg"
+},
+{
+  id: 17,
+  name: "Chrome Hearts Bracelet",
+  category: "Аксессуары",
+  price: 99000, 
+  isSale: true,
+  img: "/products/hrom.jpg" 
+},
+{
+  id: 18, // Или следующий по порядку ID
+  name: "Chrome Hearts (White)",
+  category: "Аксессуары",
+  price: 179000, 
+  isSale: false, // Можешь поставить true, если это скидочная цена
+  img: "/products/glassesw.jpg" // Проверь, как называется файл в папке public/products
+},
+{
+  id: 19, // Следующий ID после белого
+  name: "Chrome Hearts (Black)",
+  category: "Аксессуары",
+  price: 179000, 
+  isSale: false, 
+  img: "/products/glassesb.jpg" 
+}
   
 ];
 
