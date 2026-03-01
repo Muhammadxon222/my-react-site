@@ -149,7 +149,298 @@ const PRODUCTS = [
   price: 179000, 
   isSale: false, 
   img: "/products/glassesb.jpg" 
+},
+{
+  id: 20, // Следующий по порядку ID
+  name: "Orto Parisi - Megamare",
+  category: "Парфюмерия",
+  price: 459000, 
+  isSale: false, 
+  img: "/products/megamare.jpg" // Не забудь закинуть фото в public/products/
+},
+{
+  id: 21, // Следующий по порядку ID
+  name: "Maison Margiela - Jazz Club",
+  category: "Парфюмерия",
+  price: 599000, 
+  isSale: false, 
+  img: "/products/jazz-club.jpg" // Убедись, что фото в папке public/products/
+},
+{
+  id: 22, // Юбилейный двадцатый товар!
+  name: "Kilian - Blue Moon",
+  category: "Парфюмерия",
+  price: 499000, 
+  isSale: false, 
+  img: "/products/blue-moon.jpg" 
+},
+{
+  id: 23,
+  name: "Kilian - Angel's Share",
+  category: "Парфюмерия",
+  price: 459000, 
+  isSale: false, 
+  img: "/products/angels-share.jpg" 
+},
+{
+  id: 24,
+  name: "Xerjoff - Erba Pura",
+  category: "Парфюмерия",
+  price: 419000, 
+  isSale: false, 
+  img: "/products/erba-pura.jpg" 
+},
+{
+  id: 25,
+  name: "Montale - Dark Vanilla Intense",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/dark-vanilla.jpg" 
+},
+{
+  id: 26,
+  name: "Montale - Arabians Tonka",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/arabians-tonka.jpg" 
+},
+{
+  id: 27, // Четверть сотни товаров в твоем магазине!
+  name: "Montale - Intense Cafe",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/intense-cafe.jpg" 
+},
+{
+  id: 28,
+  name: "Montale - Chocolate Greedy",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/eedy.jpg" 
+},
+{
+  id: 29,
+  name: "Orto Parisi - Terroni",
+  category: "Парфюмерия",
+  price: 459000, 
+  isSale: false, 
+  img: "/products/terroni.jpg" 
+},
+{
+  id: 30,
+  name: "Orto Parisi - Boccanera",
+  category: "Парфюмерия",
+  price: 459000, 
+  isSale: false, 
+  img: "/products/boccanera.jpg" 
+},
+{
+  id: 31,
+  name: "Louis Vuitton - Imagination",
+  category: "Парфюмерия",
+  price: 449000, 
+  isSale: false, 
+  img: "/products/imagination.jpg" 
+},
+{
+  id: 32, // Красивое число — 30 товаров в базе!
+  name: "Louis Vuitton - Nuit De Feu",
+  category: "Парфюмерия",
+  price: 449000, 
+  isSale: false, 
+  img: "/products/nuit-de-feu.jpg" 
+},
+{
+  id: 33,
+  name: "Louis Vuitton - L’Immensité",
+  category: "Парфюмерия",
+  price: 449000, 
+  isSale: false, 
+  img: "/products/limmensite.jpg" 
+},
+{
+  id: 34,
+  name: "Louis Vuitton - Ombre Nomade",
+  category: "Парфюмерия",
+  price: 449000, 
+  isSale: false, 
+  img: "/products/ombre-nomade.jpg" 
+},
+{
+  id: 35,
+  name: "Tom Ford - Vanille Fatale",
+  category: "Парфюмерия",
+  price: 619000, 
+  isSale: false, 
+  img: "/products/vanille-fatale.jpg" 
+},
+{
+  id: 36,
+  name: "Tom Ford - Black Orchid",
+  category: "Парфюмерия",
+  price: 499000, 
+  isSale: false, 
+  img: "/products/black-orchid.jpg" 
+},
+{
+  id: 37,
+  name: "MFK - Baccarat Rouge 540",
+  category: "Парфюмерия",
+  price: 559000, 
+  isSale: false, 
+  img: "/products/baccarat-540.jpg" 
+},
+{
+  id: 38,
+  name: "MFK - Oud Satin Mood",
+  category: "Парфюмерия",
+  price: 449000, 
+  isSale: false, 
+  img: "/products/oud-satin-mood.jpg" 
+},
+{
+  id: 39,
+  name: "Creed - Green Irish Tweed",
+  category: "Парфюмерия",
+  price: 509000, 
+  isSale: false, 
+  img: "/products/green-irish-tweed.jpg" 
+},
+{
+  id: 40,
+  name: "Tom Ford - Ombre Leather",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/ombre-leather.jpg" 
+},
+{
+  id: 41,
+  name: "Tom Ford - F. Fabulous",
+  category: "Парфюмерия",
+  price: 599000, 
+  isSale: false, 
+  img: "/products/f-fabulous.jpg" 
+},
+{
+  id: 42, // Юбилейный, 40-й товар!
+  name: "Tom Ford - Oud Wood",
+  category: "Парфюмерия",
+  price: 699000, 
+  isSale: false, 
+  img: "/products/oud-wood.jpg" 
+},
+{
+  id: 43,
+  name: "Dior - Sauvage (Eau Forte)",
+  category: "Парфюмерия",
+  price: 199000, 
+  isSale: true, // Можно поставить Sale, так как цена очень сочная
+  img: "/products/sauvage-eau-forte.jpg" 
+},
+{
+  id: 44,
+  name: "YSL - Y Eau De Parfum",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/ysl-y-edp.jpg" 
+},
+{
+  id: 45,
+  name: "YSL - MYSLF Eau De Parfum",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/ysl-myslf.jpg" 
+},
+{
+  id: 46,
+  name: "Valentino - Born in Roma Uomo",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/valentino-born-roma.jpg" 
+},
+{
+  id: 47,
+  name: "Valentino - Born In Roma Green",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/valentino-green.jpg" 
+},
+{
+  id: 48,
+  name: "Valentino - Uomo Intense",
+  category: "Парфюмерия",
+  price: 299000, 
+  isSale: false, 
+  img: "/products/valentino-uomo-intense.jpg" 
+},
+{
+  id: 49,
+  name: "JPG - Le Male Le Parfum",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/jpg-le-male-le-parfum.jpg" 
+},
+{
+  id: 50,
+  name: "JPG - Le Male Elixir",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/jpg-elixir.jpg" 
+},
+{
+  id: 51,
+  name: "JPG - Le Beau Le Parfum",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/jpg-le-beau-lp.jpg" 
+},
+{
+  id: 52, // ЮБИЛЕЙНЫЙ НОМЕР!
+  name: "Dior - Homme Intense",
+  category: "Парфюмерия",
+  price: 359000, 
+  isSale: false, 
+  img: "/products/dior-homme-intense.jpg" 
+},
+{
+  id: 53,
+  name: "Creed - Aventus",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/creed-aventus.jpg" 
+},
+{
+  id: 54,
+  name: "Dior - Sauvage Elixir",
+  category: "Парфюмерия",
+  price: 399000, 
+  isSale: false, 
+  img: "/products/sauvage-elixir.jpg" 
+},
+{
+  id: 55,
+  name: "Orto Parisi - Megamare",
+  category: "Парфюмерия",
+  price: 459000, 
+  isSale: false, 
+  img: "/products/megamare.jpg" 
 }
+
+
+
   
 ];
 
@@ -158,7 +449,7 @@ export default function Shop() {
 
   const { addToCart, totalItems } = useCart();
 
-  const categories = ["Все", "Одежда", "Обувь", "Аксессуары"];
+  const categories = ["Все", "Одежда", "Обувь", "Аксессуары","Парфюмерия"];
 
   const filteredProducts =
     filter === "Все"
