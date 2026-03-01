@@ -55,7 +55,7 @@ const PRODUCTS = [
     img: "/products/photo_5_2026-02-03_22-41-12.jpg",
   },
   {
-    id: 8,
+    id: 7,
     name: "T-shirt (Old Money)",
     category: "Одежда",
     price: "189 000 сум",
@@ -63,382 +63,131 @@ const PRODUCTS = [
     img: "/products/photo_6_2026-02-03_22-41-12.jpg",
   },
   {
-    id: 9,
+    id: 8,
     name: "Pants-Red Flame",
     category: "Одежда",
     price: "289 000 сум",
     isSale: false,
-    img: "/products/photo_8_2026-02-03_22-41-03.jpg"
+    img: "/products/photo_8_2026-02-03_22-41-03.jpg",
   },
   {
-    id: 10,
-    name: "Classic grey",
+    id: 9,
+    name: "Classic Grey",
     category: "Одежда",
     price: "255 000 сум",
     isSale: false,
-    img: "/products/photo_9_2026-02-03_22-41-03.jpg"
-},
-{
-  id: 11,
-  name: "Baggy jeans sakura",
-  category: "Одежда",
-  price: "399 000 сум",
-  isSale: false,
-  img: "/products/photo_2026-02-03_22-39-14.jpg"
-},
-{
-  id: 12,
-  name: "Jeans Knight Sakura",
-  category: "Одежда",
-  price: "399 000 сум",
-  isSale: false,
-  img: "/products/photo_2026-02-03_22-39-32.jpg"
-},
-{
-  id: 13,
-  name: "Zip hoodie (gothic grey)",
-  category: "Одежда",
-  price: "319 000 сум",
-  isSale: false,
-  img: "/products/photo_2026-02-03_22-39-40.jpg"
-},
-{
-  id: 14,
-  name: "Nike meteor",
-  category: "Обувь",
-  price: "400 000 сум",
-  isSale: true,
-  img: "/products/photo_2026-02-03_22-39-56.jpg"
-},
-{
-  id: 15,
-  name: "Nike red lobster",
-  category: "Обувь",
-  price: "400 000 сум",
-  isSale: true,
-  img: "/products/photo_2026-02-03_22-39-59.jpg"
-},
-{
-  id: 16,
-  name: "Nike pink pie",
-  category: "Обувь",
-  price: "400 000 сум",
-  isSale: true,
-  img: "/products/photo_2026-02-03_22-40-03.jpg"
-},
-{
-  id: 17,
-  name: "Chrome Hearts Bracelet",
-  category: "Аксессуары",
-  price: 99000, 
-  isSale: true,
-  img: "/products/hrom.jpg" 
-},
-{
-  id: 18, // Или следующий по порядку ID
-  name: "Chrome Hearts (White)",
-  category: "Аксессуары",
-  price: 179000, 
-  isSale: false, // Можешь поставить true, если это скидочная цена
-  img: "/products/glassesw.jpg" // Проверь, как называется файл в папке public/products
-},
-{
-  id: 19, // Следующий ID после белого
-  name: "Chrome Hearts (Black)",
-  category: "Аксессуары",
-  price: 179000, 
-  isSale: false, 
-  img: "/products/glassesb.jpg" 
-},
-{
-  id: 20, // Следующий по порядку ID
-  name: "Orto Parisi - Megamare",
-  category: "Парфюмерия",
-  price: 459000, 
-  isSale: false, 
-  img: "/products/megamare.jpg" // Не забудь закинуть фото в public/products/
-},
-{
-  id: 21, // Следующий по порядку ID
-  name: "Maison Margiela - Jazz Club",
-  category: "Парфюмерия",
-  price: 599000, 
-  isSale: false, 
-  img: "/products/jazz-club.jpg" // Убедись, что фото в папке public/products/
-},
-{
-  id: 22, // Юбилейный двадцатый товар!
-  name: "Kilian - Blue Moon",
-  category: "Парфюмерия",
-  price: 499000, 
-  isSale: false, 
-  img: "/products/blue-moon.jpg" 
-},
-{
-  id: 23,
-  name: "Kilian - Angel's Share",
-  category: "Парфюмерия",
-  price: 459000, 
-  isSale: false, 
-  img: "/products/angels-share.jpg" 
-},
-{
-  id: 24,
-  name: "Xerjoff - Erba Pura",
-  category: "Парфюмерия",
-  price: 419000, 
-  isSale: false, 
-  img: "/products/erba-pura.jpg" 
-},
-{
-  id: 25,
-  name: "Montale - Dark Vanilla Intense",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/dark-vanilla.jpg" 
-},
-{
-  id: 26,
-  name: "Montale - Arabians Tonka",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/arabians-tonka.jpg" 
-},
-{
-  id: 27, // Четверть сотни товаров в твоем магазине!
-  name: "Montale - Intense Cafe",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/intense-cafe.jpg" 
-},
-{
-  id: 28,
-  name: "Montale - Chocolate Greedy",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/eedy.jpg" 
-},
-{
-  id: 29,
-  name: "Orto Parisi - Terroni",
-  category: "Парфюмерия",
-  price: 459000, 
-  isSale: false, 
-  img: "/products/terroni.jpg" 
-},
-{
-  id: 30,
-  name: "Orto Parisi - Boccanera",
-  category: "Парфюмерия",
-  price: 459000, 
-  isSale: false, 
-  img: "/products/boccanera.jpg" 
-},
-{
-  id: 31,
-  name: "Louis Vuitton - Imagination",
-  category: "Парфюмерия",
-  price: 449000, 
-  isSale: false, 
-  img: "/products/imagination.jpg" 
-},
-{
-  id: 32, // Красивое число — 30 товаров в базе!
-  name: "Louis Vuitton - Nuit De Feu",
-  category: "Парфюмерия",
-  price: 449000, 
-  isSale: false, 
-  img: "/products/nuit-de-feu.jpg" 
-},
-{
-  id: 33,
-  name: "Louis Vuitton - L’Immensité",
-  category: "Парфюмерия",
-  price: 449000, 
-  isSale: false, 
-  img: "/products/limmensite.jpg" 
-},
-{
-  id: 34,
-  name: "Louis Vuitton - Ombre Nomade",
-  category: "Парфюмерия",
-  price: 449000, 
-  isSale: false, 
-  img: "/products/ombre-nomade.jpg" 
-},
-{
-  id: 35,
-  name: "Tom Ford - Vanille Fatale",
-  category: "Парфюмерия",
-  price: 619000, 
-  isSale: false, 
-  img: "/products/vanille-fatale.jpg" 
-},
-{
-  id: 36,
-  name: "Tom Ford - Black Orchid",
-  category: "Парфюмерия",
-  price: 499000, 
-  isSale: false, 
-  img: "/products/black-orchid.jpg" 
-},
-{
-  id: 37,
-  name: "MFK - Baccarat Rouge 540",
-  category: "Парфюмерия",
-  price: 559000, 
-  isSale: false, 
-  img: "/products/baccarat-540.jpg" 
-},
-{
-  id: 38,
-  name: "MFK - Oud Satin Mood",
-  category: "Парфюмерия",
-  price: 449000, 
-  isSale: false, 
-  img: "/products/oud-satin-mood.jpg" 
-},
-{
-  id: 39,
-  name: "Creed - Green Irish Tweed",
-  category: "Парфюмерия",
-  price: 509000, 
-  isSale: false, 
-  img: "/products/green-irish-tweed.jpg" 
-},
-{
-  id: 40,
-  name: "Tom Ford - Ombre Leather",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/ombre-leather.jpg" 
-},
-{
-  id: 41,
-  name: "Tom Ford - F. Fabulous",
-  category: "Парфюмерия",
-  price: 599000, 
-  isSale: false, 
-  img: "/products/f-fabulous.jpg" 
-},
-{
-  id: 42, // Юбилейный, 40-й товар!
-  name: "Tom Ford - Oud Wood",
-  category: "Парфюмерия",
-  price: 699000, 
-  isSale: false, 
-  img: "/products/oud-wood.jpg" 
-},
-{
-  id: 43,
-  name: "Dior - Sauvage (Eau Forte)",
-  category: "Парфюмерия",
-  price: 199000, 
-  isSale: true, // Можно поставить Sale, так как цена очень сочная
-  img: "/products/sauvage-eau-forte.jpg" 
-},
-{
-  id: 44,
-  name: "YSL - Y Eau De Parfum",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/ysl-y-edp.jpg" 
-},
-{
-  id: 45,
-  name: "YSL - MYSLF Eau De Parfum",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/ysl-myslf.jpg" 
-},
-{
-  id: 46,
-  name: "Valentino - Born in Roma Uomo",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/valentino-born-roma.jpg" 
-},
-{
-  id: 47,
-  name: "Valentino - Born In Roma Green",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/valentino-green.jpg" 
-},
-{
-  id: 48,
-  name: "Valentino - Uomo Intense",
-  category: "Парфюмерия",
-  price: 299000, 
-  isSale: false, 
-  img: "/products/valentino-uomo-intense.jpg" 
-},
-{
-  id: 49,
-  name: "JPG - Le Male Le Parfum",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/jpg-le-male-le-parfum.jpg" 
-},
-{
-  id: 50,
-  name: "JPG - Le Male Elixir",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/jpg-elixir.jpg" 
-},
-{
-  id: 51,
-  name: "JPG - Le Beau Le Parfum",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/jpg-le-beau-lp.jpg" 
-},
-{
-  id: 52, // ЮБИЛЕЙНЫЙ НОМЕР!
-  name: "Dior - Homme Intense",
-  category: "Парфюмерия",
-  price: 359000, 
-  isSale: false, 
-  img: "/products/dior-homme-intense.jpg" 
-},
-{
-  id: 53,
-  name: "Creed - Aventus",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/creed-aventus.jpg" 
-},
-{
-  id: 54,
-  name: "Dior - Sauvage Elixir",
-  category: "Парфюмерия",
-  price: 399000, 
-  isSale: false, 
-  img: "/products/sauvage-elixir.jpg" 
-},
-{
-  id: 55,
-  name: "Orto Parisi - Megamare",
-  category: "Парфюмерия",
-  price: 459000, 
-  isSale: false, 
-  img: "/products/megamare.jpg" 
-}
+    img: "/products/photo_9_2026-02-03_22-41-03.jpg",
+  },
+  {
+    id: 10,
+    name: "Baggy Jeans Sakura",
+    category: "Одежда",
+    price: "399 000 сум",
+    isSale: false,
+    img: "/products/photo_2026-02-03_22-39-14.jpg",
+  },
+  {
+    id: 11,
+    name: "Jeans Knight Sakura",
+    category: "Одежда",
+    price: "399 000 сум",
+    isSale: false,
+    img: "/products/photo_2026-02-03_22-39-32.jpg",
+  },
+  {
+    id: 12,
+    name: "Zip Hoodie (Gothic Grey)",
+    category: "Одежда",
+    price: "319 000 сум",
+    isSale: false,
+    img: "/products/photo_2026-02-03_22-39-40.jpg",
+  },
+  {
+    id: 13,
+    name: "Nike Meteor",
+    category: "Обувь",
+    price: "400 000 сум",
+    isSale: true,
+    img: "/products/photo_2026-02-03_22-39-56.jpg",
+  },
+  {
+    id: 14,
+    name: "Nike Red Lobster",
+    category: "Обувь",
+    price: "400 000 сум",
+    isSale: true,
+    img: "/products/photo_2026-02-03_22-39-59.jpg",
+  },
+  {
+    id: 15,
+    name: "Nike Pink Pie",
+    category: "Обувь",
+    price: "400 000 сум",
+    isSale: true,
+    img: "/products/photo_2026-02-03_22-40-03.jpg",
+  },
+  {
+    id: 16,
+    name: "Chrome Hearts Bracelet",
+    category: "Аксессуары",
+    price: "99 000 сум",
+    isSale: true,
+    img: "/products/hrom.jpg",
+  },
+  {
+    id: 17,
+    name: "Chrome Hearts (White)",
+    category: "Аксессуары",
+    price: "179 000 сум",
+    isSale: false,
+    img: "/products/glassesw.jpg",
+  },
+  {
+    id: 18,
+    name: "Chrome Hearts (Black)",
+    category: "Аксессуары",
+    price: "179 000 сум",
+    isSale: false,
+    img: "/products/glassesb.jpg",
+  },
 
+  // ===== ПАРФЮМЕРИЯ =====
+
+  { id: 19, name: "Orto Parisi - Megamare", category: "Парфюмерия", price: "459 000 сум", isSale: false, img: "/products/megamare.jpg" },
+  { id: 20, name: "Maison Margiela - Jazz Club", category: "Парфюмерия", price: "599 000 сум", isSale: false, img: "/products/jazz-club.jpg" },
+  { id: 21, name: "Kilian - Blue Moon", category: "Парфюмерия", price: "499 000 сум", isSale: false, img: "/products/blue-moon.jpg" },
+  { id: 22, name: "Kilian - Angel's Share", category: "Парфюмерия", price: "459 000 сум", isSale: false, img: "/products/angels-share.jpg" },
+  { id: 23, name: "Xerjoff - Erba Pura", category: "Парфюмерия", price: "419 000 сум", isSale: false, img: "/products/erba-pura.jpg" },
+  { id: 24, name: "Montale - Dark Vanilla Intense", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/dark-vanilla.jpg" },
+  { id: 25, name: "Montale - Arabians Tonka", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/arabians-tonka.jpg" },
+  { id: 26, name: "Montale - Intense Cafe", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/intense-cafe.jpg" },
+  { id: 27, name: "Montale - Chocolate Greedy", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/eedy.jpg" },
+  { id: 28, name: "Orto Parisi - Terroni", category: "Парфюмерия", price: "459 000 сум", isSale: false, img: "/products/terroni.jpg" },
+  { id: 29, name: "Orto Parisi - Boccanera", category: "Парфюмерия", price: "459 000 сум", isSale: false, img: "/products/boccanera.jpg" },
+  { id: 30, name: "Louis Vuitton - Imagination", category: "Парфюмерия", price: "449 000 сум", isSale: false, img: "/products/imagination.jpg" },
+  { id: 31, name: "Louis Vuitton - Nuit De Feu", category: "Парфюмерия", price: "449 000 сум", isSale: false, img: "/products/nuit-de-feu.jpg" },
+  { id: 32, name: "Louis Vuitton - L’Immensité", category: "Парфюмерия", price: "449 000 сум", isSale: false, img: "/products/limmensite.jpg" },
+  { id: 33, name: "Louis Vuitton - Ombre Nomade", category: "Парфюмерия", price: "449 000 сум", isSale: false, img: "/products/ombre-nomade.jpg" },
+  { id: 34, name: "Tom Ford - Vanille Fatale", category: "Парфюмерия", price: "619 000 сум", isSale: false, img: "/products/vanille-fatale.jpg" },
+  { id: 35, name: "Tom Ford - Black Orchid", category: "Парфюмерия", price: "499 000 сум", isSale: false, img: "/products/black-orchid.jpg" },
+  { id: 36, name: "MFK - Baccarat Rouge 540", category: "Парфюмерия", price: "559 000 сум", isSale: false, img: "/products/baccarat-540.jpg" },
+  { id: 37, name: "MFK - Oud Satin Mood", category: "Парфюмерия", price: "449 000 сум", isSale: false, img: "/products/oud-satin-mood.jpg" },
+  { id: 38, name: "Creed - Green Irish Tweed", category: "Парфюмерия", price: "509 000 сум", isSale: false, img: "/products/green-irish-tweed.jpg" },
+  { id: 39, name: "Tom Ford - Ombre Leather", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/ombre-leather.jpg" },
+  { id: 40, name: "Tom Ford - F. Fabulous", category: "Парфюмерия", price: "599 000 сум", isSale: false, img: "/products/f-fabulous.jpg" },
+  { id: 41, name: "Tom Ford - Oud Wood", category: "Парфюмерия", price: "699 000 сум", isSale: false, img: "/products/oud-wood.jpg" },
+  { id: 42, name: "Dior - Sauvage (Eau Forte)", category: "Парфюмерия", price: "199 000 сум", isSale: true, img: "/products/sauvage-eau-forte.jpg" },
+  { id: 43, name: "YSL - Y Eau De Parfum", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/ysl-y-edp.jpg" },
+  { id: 44, name: "YSL - MYSLF Eau De Parfum", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/ysl-myslf.jpg" },
+  { id: 45, name: "Valentino - Born in Roma Uomo", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/valentino-born-roma.jpg" },
+  { id: 46, name: "Valentino - Born In Roma Green", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/valentino-green.jpg" },
+  { id: 47, name: "Valentino - Uomo Intense", category: "Парфюмерия", price: "299 000 сум", isSale: false, img: "/products/valentino-uomo-intense.jpg" },
+  { id: 48, name: "JPG - Le Male Le Parfum", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/jpg-le-male-le-parfum.jpg" },
+  { id: 49, name: "JPG - Le Male Elixir", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/jpg-elixir.jpg" },
+  { id: 50, name: "JPG - Le Beau Le Parfum", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/jpg-le-beau-lp.jpg" },
+  { id: 51, name: "Dior - Homme Intense", category: "Парфюмерия", price: "359 000 сум", isSale: false, img: "/products/dior-homme-intense.jpg" },
+  { id: 52, name: "Creed - Aventus", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/creed-aventus.jpg" },
+  { id: 53, name: "Dior - Sauvage Elixir", category: "Парфюмерия", price: "399 000 сум", isSale: false, img: "/products/sauvage-elixir.jpg" }
 
 
   
